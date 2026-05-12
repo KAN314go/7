@@ -1,0 +1,11 @@
+{
+    "主页url": "https://321av.me/enter",
+    "直接播放": "1",
+    "分类url": "https://321av.me/vodshow/{cateId}--{by}------{catePg}---.html",
+    "分类": "有码影片$20#无码影片$21#中文字幕$22",
+    "数组": "overflow-hidden&&my-2",
+    "副标题": "<span*>&&</span>[含序号:2]",
+    "排序": "最近更新$time#今日浏览数$hits_day#本周浏览数$hits_week#本月浏览数$hits_month#总浏览数$hits",
+    "搜索链接": "https://321av.me/vod/search/page/{pg}/wd/{wd}.html",
+    "跳转播放链接": "https://321av.me/static/player/xplayer.html?video_url=+player_aaaa=*url\":\"&&\"[工具:解url]+&poster_url=+video_poster_url=\"&&\""
+}
