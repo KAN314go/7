@@ -27,7 +27,7 @@ class Spider(BaseSpile):
 
     def init(self, extend=""):
         self.host = "https://h4ivs.sm431.vip"
-        self.video_host = "https://m3u8.nl:88"
+        self.video_host = "https://38.je:38"
         self.image_host = "https://3334.nl:33"
         self.headers = {
             "User-Agent": "Mozilla/5.0 (Linux; Android 13; 22127RK46C Build/TKQ1.220905.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/104.0.5112.97 Mobile Safari/537.36",
