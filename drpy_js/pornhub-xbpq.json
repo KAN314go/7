@@ -1,0 +1,44 @@
+{
+    "作者": "飞鱼",
+    "站名": "pornhub",
+    "发布页": "",
+    "主页url": "https://cn.pornhub.com",
+    "首页": "",
+    "数组二次截取": "",
+    
+    //以下分类--是标记--
+    "数组": "p:ul[class*=videoList clearfix] li||分类--p:div[class*=\"categoriesWrapper withSideSpacing\"] li||明星--p:ul[class*=\"pornstarList pornstarListSection\"] li||频道--p:div[class*=\"channelsList\"] li",
+    "标题": "p:.title->text||分类--p:span[class*=\"categoryTitleWrapper\"]->text||明星--p:.performerNameInfo->text||频道--p:.usernameLink->text",
+    "图片": "p:img->src",
+    "副标题": "p:.duration->text||分类--p:.video_count->text||明星--p:.videos->text+p:.views->text||频道--p:.rank->text",
+    "链接": "p:a->href||分类--p:a->href||明星--p:a->href||频道--p:a->href",
+    "简介": "inlineFree\">&&</span>",
+    "线路数组": "",
+    "线路标题": "飞鱼高清",
+    //"列表二次截取": "flashvars_.*?=&&;.*?</script>[包含:mediaDefinitions]",
+  //"播放二次截取": "var flashvars_.*?=&&;[包含:mediaDefinitions]",
+   // "播放数组": "j:mediaDefinitions",
+   // "播放标题": "j:quality",
+    //"播放列表": "",
+    //"播放链接": "j:videoUrl",
+    /////
+    "播放数组": "p:div[id=mobileContainer]",
+    "播放标题": "quality\":\"&&\"",
+    "播放列表": "p:div[id=mobileContainer]",
+    "播放链接": "videoUrl\":\"&&\"[替换:\\>>]",
+    "直接播放":"0",
+    //"跳转播放链接": "<source*src=\"&&\"",
+    "搜索模式": "1",
+    "搜索url": "https://cn.pornhub.com/video/search?search={wd}&page={pg}",
+    "请求头": "User-Agent$Mozilla/5.0 (Linux; Android 16; PJV110 Build/BP2A.250605.015) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/138.0.7204.179 Mobile Safari/537.36#Referer$https://cn.pornhub.com/",
+    "播放请求头": "User-Agent$Mozilla/5.0 (Linux; Android 16; PJV110 Build/BP2A.250605.015) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/138.0.7204.179 Mobile Safari/537.36#Cookie$c-#Referer$https://cn.pornhub.com/",
+    "二级目录": "分类,明星,频道|folder-0-0-H",
+    //二级目录是指定那些分类使用目录模式
+    "二级ID": "分类二级$/model/&&\">#明星二级$空#频道二级$/channels/&&",
+    //二级id分类二级//在得到的链接中截取，如果不填二级ID，将直接使用链接，在特殊分类中加上此分类的二级，如xx二级${cateId}，就是直接将一级链接交给二级使用。
+    "特殊分类链接": "分类二级$https://cn.pornhub.com{cateId}&page={catePg}#明星二级$https://cn.pornhub.com/{cateId}?page={catePg}#精选色情片,推荐视频,明星$https://cn.pornhub.com/{cateId}?page={catePg}#频道$https://cn.pornhub.com/{cateId}?o=rk&page={catePg}#频道二级$https://cn.pornhub.com/channels/{cateId}/videos?page={catePg}",
+    //特殊分类链接是指定分类使用此链接作为分类url
+    //"排序": "空||空||空||空||空||空||空||空||最多视频$total_videos#排行$avg_top#字母顺序$title#热度$avg_popular||最多视频$total_videos#排行$avg_top#字母顺序$title#热度$avg_popular",
+    "分类url": "https://cn.pornhub.com/{cateId}?page={catePg}",
+    "分类": "精选色情片$video#推荐视频$recommended#分类$categories#明星$pornstars#频道$channels"
+}
