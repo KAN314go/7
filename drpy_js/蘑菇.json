@@ -1,0 +1,22 @@
+{
+    "作者": "暗黑乐哥",
+        "编码": "UTF-8",
+        "请求头": "User-Agent$MOBILE_UA",
+        "嗅探词": "m3u8#.mp4",
+        "过滤词": ".js#.css#.jpg#.png#.gif",
+        "主页url": "https://www.mogu2026.net",
+        "分类url": "https://www.mogu2026.net/category/cate{cateId}/{catePg}/",
+        "分类": "丝袜$4#少女$5#颜值女神$6#网红$8#自拍$22#JK制服$28#萝莉$29#黑丝$34#少妇$37#国产$65#韩区$66#日本$70#中文AV$73#无码$82#网黄$100#原神$129#欧美$143#韩国三级$118#偷拍$122#热门$163",
+        "数组": "p:div.module-item.module-one",
+        "标题": "p:a.module-item-title->title",
+        "图片": "p:img->data-cover",
+        "链接": "p:a.module-item-title->href",
+        "播放链接": "https://d2tmk0qj91bm44.cloudfront.net+data-url=\\\"&&\\\"[替换:&amp;>>&]",
+        "简介": "p:div.video-info->text",
+        "搜索url": "https://www.mogu2026.net/search/{wd}/{pg}/",
+        "搜索数组": "p:div.module-item.module-one",
+        "搜索标题": "p:a.module-item-title->title",
+        "搜索图片": "p:img->data-cover",
+        "搜索链接": "p:a.module-item-title->href"
+    }
+}
