@@ -3,7 +3,7 @@
 // @description 咖啡直播体育赛事直播 + 录像回放
 // @version 1.3.0
 
-const host = 'https://kafeizhibo.com';
+const host = 'https://kafeizhibo.cc';
 
 const headers = {
     'User-Agent': 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36',
