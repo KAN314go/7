@@ -1,0 +1,103 @@
+{
+    "sites": [
+        {
+            "key": "JSON读取",
+            "name": "JSON源",
+            "type": 3,
+            "api": "./py-/本地json源读取.py",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 0,
+            "changeable": 1,
+            "playerType": 2
+        },
+        {
+            "key": "m3u读取",
+            "name": "M3U源",
+            "type": 3,
+            "api": "./py-/本地m3u源读取.py",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 0,
+            "changeable": 1,
+            "playerType": 2
+        },
+        {
+            "key": "TXT读取",
+            "name": "TXT源",
+            "type": 3,
+            "api": "./py-/本地txt源读取.py",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 0,
+            "changeable": 1,
+            "playerType": 2
+        },
+        {
+            "key": "综合带图片读取",
+            "name": "综合源(图)读取",
+            "type": 3,
+            "api": "./py-/综合源(图)读取.py",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 0,
+            "changeable": 1,
+            "playerType": 2
+        },
+        {
+            "key": "本地综合源(有图)搜索",
+            "name": "综合源(图)搜索",
+            "type": 3,
+            "api": "./py-/综合源(图)搜索.py",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 0,
+            "changeable": 1,
+            "playerType": 2
+        },
+        {
+            "key": "百合DB库多目录读取",
+            "name": "百合DB库多目录读取",
+            "type": 3,
+            "api": "./py-/百合DB库多目录☆读取.py",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 0,
+            "changeable": 1,
+            "playerType": 2
+        },
+        {
+            "key": "虚拟分类",
+            "name": "DB库纯虚拟分类",
+            "type": 3,
+            "api": "./py-/百合DB纯虚拟☆分类.py",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 0,
+            "changeable": 1,
+            "playerType": 2
+        },
+        {
+            "key": "涩库",
+            "name": "新涩☆库",
+            "type": 3,
+            "api": "./py-/新涩☆库.py",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 0,
+            "changeable": 1,
+            "playerType": 2
+        },
+        {
+            "key": "测试",
+            "name": "测试",
+            "type": 3,
+            "api": "./py-/测试.py",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 0,
+            "changeable": 1,
+            "playerType": 2
+        }
+    ]
+}
